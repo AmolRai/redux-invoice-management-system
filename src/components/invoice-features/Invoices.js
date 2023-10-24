@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
-import InvoiceModal from "./InvoiceModal";
-import { removeInvoice } from "../utils/invoiceSlice";
-import InvoiceForm from "./InvoiceForm";
+import InvoiceModal from "../InvoiceModal";
+import { removeInvoice } from "../../utils/invoiceSlice";
+import InvoiceForm from "../InvoiceForm";
 import FormData from "./FormData";
 import ButtonGroups from "./ButtonGroups";
 

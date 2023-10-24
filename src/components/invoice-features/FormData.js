@@ -16,8 +16,8 @@ const FormData = ({ item }) => {
         <p>{item.billFromEmail}</p>
       </div>
       <div>
-        <h6>Current Date</h6>
-        <p>{item.currentDate}</p>
+        <h6>Bill From Email</h6>
+        <p>{item.billFromEmail}</p>
       </div>
       <div>
         <h6>Date of Issue</h6>
